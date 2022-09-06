@@ -25,6 +25,9 @@ It will open command prompt to that path
 
 4. Repeat Step 3, Three times, and before you continue make sure REDIS is installed in the computer
 
+**Note:** If your redis Server is not running on port 6379, please change it in line 29 of .ENV file
+
+
 ## Creating the server
 1. We will create Publisher Server
 type "php artisan serve --port=8000",,
